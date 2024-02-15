@@ -1,0 +1,89 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+}
+
+.login-card {
+  height: 340px;
+  box-shadow: 0px 0px 5px 5px #ebebeb;
+  box-shadow: 1px;
+}
+@media screen and (min-width: 768px) {
+  .login-card {
+    height: 400px;
+    width: 400px;
+    padding-top: 40px;
+  }
+}
+
+.website-logo {
+  height: 40px;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    height: 50px;
+    width: 150px;
+  }
+}
+.user-label {
+  font-size: 13px;
+  font-weight: bold;
+}
+.pass-label {
+  font-size: 13px;
+  font-weight: bold;
+}
+.input {
+  height: 30px;
+  border: 1px solid #475569;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.user-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.pass-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.checkbox-input {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.log-button {
+  background-color: #3b82f6;
+  color: white;
+  height: 30px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
